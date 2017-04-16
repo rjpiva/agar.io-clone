@@ -185,8 +185,8 @@ function setupSocket(socket) {
         socket.emit('gotit', player);
         global.gameStart = true;
         debug('Game started at: ' + global.gameStart);
-        window.chat.addSystemLine('Connected to the game!');
-        window.chat.addSystemLine('Type <b>-help</b> for a list of commands.');
+        window.chat.addSystemLine('Conectado ao jogo!');
+        window.chat.addSystemLine('Digite <b>-help</b> para uma lista de comandos, amiguinho.');
         if (global.mobile) {
             document.getElementById('gameAreaWrapper').removeChild(document.getElementById('chatbox'));
         }
