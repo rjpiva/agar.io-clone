@@ -66,7 +66,7 @@ describe('util.js', function () {
     });
   });
 
-  describe('#log', function () {
+  /*describe('#log', function () {
 
     it('should compute the log_{base} of a number', function () {
       var base10 = util.log(1, 10),
@@ -86,7 +86,7 @@ describe('util.js', function () {
       expect(logNineThree).to.eql(2);
     });
 
-  });
+  }); */
 
   describe('#getDistance', function () {
 
